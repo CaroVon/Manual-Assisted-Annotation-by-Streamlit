@@ -1,2 +1,2 @@
 # Manual-Assisted-Annotation-by-Streamlit
-使用该页面更加方便地对无监督文本数据进行人工分析和标注，构造微调训练集
+本仓库构建了人工提示性轻量级模型（all-MiniLM-L6-v2）微调方案，使用streamlit对无监督数据设计了更方便友好的人工标注页面，完成训练集构造后再采用Sentencetransformer的经典训练框架进行嵌入微调，输出base模型和微调模型结果对比
